@@ -9,6 +9,7 @@ namespace Holojam.Tools
 {
     public class Furniture : Synchronizable
     {
+        [SerializeField]
         private int state = 0; //for the state of the funiture: 0 idle, 1 select, 2 moving
         private static List<Phonecontroller> Controllers
         {
@@ -80,13 +81,23 @@ namespace Holojam.Tools
                     state = 2;
                 }
             }
-            if(sending && follow)
+            if (sending)
             {
-                transform.position = cursor.GetComponent<IkeaCursor>().CursorLocation;
+                synchronizedInt = state;
+                if (follow)
+                {
+                    transform.position = cursor.GetComponent<IkeaCursor>().CursorLocation;
+                    synchronizedVector3 = transform.position;
+                    //synchronizedQuaternion = transform.rotation;
+                }
                 synchronizedVector3 = transform.position;
-                //synchronizedQuaternion = transform.rotation;
             }
-            synchronizedInt = state;
+            else
+            {
+                transform.position = synchronizedVector3;
+                state = synchronizedInt;
+            }
+
             //Debug.Log(controller_index);
             Debug.Log(state);
         }

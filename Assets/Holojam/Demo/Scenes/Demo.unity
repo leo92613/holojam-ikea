@@ -3955,8 +3955,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: furniture1
-  useMasterPC: 0
-  sending: 0
+  useMasterPC: 1
+  sending: 1
+  state: 0
 --- !u!114 &2110783455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3969,4 +3970,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: furniture1
-  isMine: 0
+  isMine: 1

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holojam-Ikea.CSharp.Plugins", "Holojam-Ikea.CSharp.Plugins.csproj", "{56C8427D-C7DF-FD91-6AC4-C1E7459CA473}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holojam-ikea.CSharp.Plugins", "holojam-ikea.CSharp.Plugins.csproj", "{8D1A4541-E194-46FB-39BF-53121670B2A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holojam-Ikea.CSharp", "Holojam-Ikea.CSharp.csproj", "{B813F2C6-D1D6-5878-451A-461D44EEB5C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holojam-ikea.CSharp", "holojam-ikea.CSharp.csproj", "{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holojam-Ikea.CSharp.Editor", "Holojam-Ikea.CSharp.Editor.csproj", "{B9383ACA-50BD-A2D5-5F52-C263C71887D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holojam-ikea.CSharp.Editor", "holojam-ikea.CSharp.Editor.csproj", "{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{56C8427D-C7DF-FD91-6AC4-C1E7459CA473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56C8427D-C7DF-FD91-6AC4-C1E7459CA473}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56C8427D-C7DF-FD91-6AC4-C1E7459CA473}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56C8427D-C7DF-FD91-6AC4-C1E7459CA473}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B813F2C6-D1D6-5878-451A-461D44EEB5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B813F2C6-D1D6-5878-451A-461D44EEB5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B813F2C6-D1D6-5878-451A-461D44EEB5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B813F2C6-D1D6-5878-451A-461D44EEB5C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9383ACA-50BD-A2D5-5F52-C263C71887D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9383ACA-50BD-A2D5-5F52-C263C71887D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9383ACA-50BD-A2D5-5F52-C263C71887D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9383ACA-50BD-A2D5-5F52-C263C71887D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
