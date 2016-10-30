@@ -45,16 +45,16 @@ namespace Holojam.Tools{
             int index = (i+GetComponent<ActorManager>().actors.Length)%Motive.tagCount;
 
             //Wenbo Edit for Ikea Demo
-            phonecontroller = Resources.Load("/Holojam/Demo/Prefabs/PhoneController") as Phonecontroller;
-            Phonecontroller ph = (Instantiate(phonecontroller.gameObject, Vector3.zero, Quaternion.identity) as GameObject).GetComponent<Phonecontroller>();
-            ph.label = Pcontroller.GetName((Pcontroller.Tag)index);
-            ph.transform.parent = a.transform;
+           // phonecontroller = Resources.Load("/Holojam/Demo/Prefabs/PhoneController") as Phonecontroller;
+           // Phonecontroller ph = (Instantiate(phonecontroller.gameObject, Vector3.zero, Quaternion.identity) as GameObject).GetComponent<Phonecontroller>();
+          //  ph.label = Pcontroller.GetName((Pcontroller.Tag)index);
+           // ph.transform.parent = a.transform;
             //Wenbo Edit for Ikea Demo
 
             a.trackingTag=(Motive.Tag)index;
             a.handle=handles[i%handles.Length];
             a.motif=colors[i%colors.Length];
-
+            SetController(a, index);
             //HoloIK-specific settings
             HoloIK ik = a.GetComponentInChildren<HoloIK>();
             if(ik!=null)ik.groundPlane = groundPlane;
@@ -68,5 +68,15 @@ namespace Holojam.Tools{
                DestroyImmediate(a.gameObject);
             else Destroy(a.gameObject);
       }
+      private void SetController(Actor act, int ind)
+        {
+            Transform[] ts = act.gameObject.transform.GetComponentsInChildren<Transform>(true);
+            foreach  (Transform t in ts) if (t.gameObject.name == "Controller")
+                {
+                    Phonecontroller ph = t.gameObject.GetComponent<Phonecontroller>();
+                    ph.label = Pcontroller.GetName((Pcontroller.Tag)ind);
+                    ph.index = ind;
+                }
+        }
    }
 }
