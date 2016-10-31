@@ -32,7 +32,7 @@ namespace Holojam.Tools
                     if (hit.transform.gameObject.tag == "furniture")
                     {
                         //sign.GetComponent<MeshRenderer>().enabled = true;
-                        sign.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.red);
+                        sign.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.green);
                         sign.transform.position = hit.point;
                         sign.transform.parent = hit.transform;
                         preFur = hit.transform.gameObject;
@@ -40,7 +40,7 @@ namespace Holojam.Tools
                     }
                     else
                     {
-                        sign.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.green);
+                        sign.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.red);
                     }
                 }
                // Debug.Log(preFur.name);

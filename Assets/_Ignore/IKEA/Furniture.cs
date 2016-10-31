@@ -92,7 +92,7 @@ namespace Holojam.Tools
                 }
                 synchronizedVector3 = transform.position;
             }
-            else
+            if (!useMasterPC)
             {
                 transform.position = synchronizedVector3;
                 state = synchronizedInt;

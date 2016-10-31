@@ -1,11 +1,11 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holojam-ikea.CSharp.Plugins", "holojam-ikea.CSharp.Plugins.csproj", "{8D1A4541-E194-46FB-39BF-53121670B2A9}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B122FCC7-8B42-44A1-251B-53CFDAC032D6}") = "holojam-ikea", "Assembly-CSharp-firstpass.csproj", "{081EF4BE-A3B2-3C27-B8D6-BCBD20AFF6FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holojam-ikea.CSharp", "holojam-ikea.CSharp.csproj", "{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}"
+Project("{B122FCC7-8B42-44A1-251B-53CFDAC032D6}") = "holojam-ikea", "Assembly-CSharp.csproj", "{7C771024-40D7-B4BD-B9A9-DAD67919FE59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holojam-ikea.CSharp.Editor", "holojam-ikea.CSharp.Editor.csproj", "{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}"
+Project("{B122FCC7-8B42-44A1-251B-53CFDAC032D6}") = "holojam-ikea", "Assembly-CSharp-Editor.csproj", "{5E864CD2-8F6E-C123-A68A-9C029175AF29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D1A4541-E194-46FB-39BF-53121670B2A9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EAF7979-76C9-3DE5-65FC-8F0D8DD33924}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A678A1EE-7A5D-8FA2-91D7-8312B90CAEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081EF4BE-A3B2-3C27-B8D6-BCBD20AFF6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081EF4BE-A3B2-3C27-B8D6-BCBD20AFF6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081EF4BE-A3B2-3C27-B8D6-BCBD20AFF6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081EF4BE-A3B2-3C27-B8D6-BCBD20AFF6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C771024-40D7-B4BD-B9A9-DAD67919FE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C771024-40D7-B4BD-B9A9-DAD67919FE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C771024-40D7-B4BD-B9A9-DAD67919FE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C771024-40D7-B4BD-B9A9-DAD67919FE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E864CD2-8F6E-C123-A68A-9C029175AF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E864CD2-8F6E-C123-A68A-9C029175AF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E864CD2-8F6E-C123-A68A-9C029175AF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E864CD2-8F6E-C123-A68A-9C029175AF29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

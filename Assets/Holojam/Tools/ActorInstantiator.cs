@@ -76,6 +76,7 @@ namespace Holojam.Tools{
                     Phonecontroller ph = t.gameObject.GetComponent<Phonecontroller>();
                     ph.label = Pcontroller.GetName((Pcontroller.Tag)ind);
                     ph.index = ind;
+                    ph.transform.parent = transform;
                 }
         }
    }

@@ -78,5 +78,21 @@ namespace Holojam.Tools
                 transform.rotation = synchronizedQuaternion;
             }
         }
+
+     void OnDrawGizmos(){
+         //DrawGizmoGhost();
+         Gizmos.color = Color.red;
+         Vector3 look = transform.rotation * Vector3.forward;
+         Vector3 eyes = transform.position;
+         Vector3 up = transform.rotation * Vector3.up;
+         Vector3 left = transform.rotation * Vector3.left;
+         Vector3 offset = eyes+look*0.015f;
+
+         Drawer.Circle(offset+left*0.035f,look,up,0.03f);
+         Drawer.Circle(offset-left*0.035f,look,up,0.03f);
+         //Reference forward vector
+         Gizmos.DrawRay(offset,look);
+      }
+      void OnDrawGizmosSelected(){}
     }
 }
